@@ -1,14 +1,14 @@
-#### IMPORTANT 
+# IMPORTANT 
 * Tests run only for MAC OSX and Windows
 * Tests run only for chrome browser
 * chromedriver version supports only chrome browser v81  
-#### TECH STACK
+# TECH STACK
    *  **Language** : Java
    * **Build management tool** : Maven
    * **Unit testing framework** : TestNG
    * **Reporting** : Allure
 
-#### DATA
+# DATA
 For Data-driven testng, I have used Data Provider and Factory that is out of the box with TestNG
 
 `com.assignment.data`
@@ -16,14 +16,14 @@ For Data-driven testng, I have used Data Provider and Factory that is out of the
 is the path where the Data Provider class reside
 
   
-#### RUNNING THE TESTS
+# RUNNING THE TESTS
 `mvn clean test` to run the entire suite
 
 `mvn clean test -Dgroups=facebook` to run only the facebook assignment
 
 `mvn clean test -Dgroups=walletHub` to run only the wallet assignment
 
-#### REPORTING
+# REPORTING
 * Download the allure command line
     * using npm
     
